@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-page {
+    margin: 5em 10em 5em;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.table, td,th  {
+    padding: 0;
+    width: 50%;
+    border: 2px solid;
+    padding: 5px;
+}
+
+.table {
+    border: none;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 5px;
+}
+h2{
+    padding: 10px ;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+h3{
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+} 
